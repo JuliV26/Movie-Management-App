@@ -65,6 +65,6 @@ def migrate_movies():
 
     print("Movies and users migrated successfully!")
 
-if __name__ == "__main__":
+
     migrate_users()
     migrate_movies()
