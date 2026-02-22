@@ -134,7 +134,7 @@ public class Main {
         }
     }
     static void register () {
-        System.out.print("Вашето име и фамилия: ");
+        System.out.print("Вашето име : ");
         String name = scanner.nextLine();
 
         System.out.print("Телефонен  номер: ");
@@ -383,17 +383,16 @@ public class Main {
     }
 
 
-
     //клас за User
     static class User {
         String name;
-        String number;
+        String phone_number;
         String email;
         String password;
 
         User(String name, String number, String email, String password) {
             this.name = name;
-            this.number = number;
+            this.phone_number = number;
             this.email = email;
             this.password = password;
         }
