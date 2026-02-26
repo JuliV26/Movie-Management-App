@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83779a91-59cb-4b32-9150-b324cf51ae00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/movies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="bcrypt" />
+        <entry key="$PROJECT_DIR$" value="delete_metadata" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,13 +70,18 @@
     "ToolWindowRun.ShowToolbar": "false",
     "git-widget-placeholder": "delete__metadata",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Downloads/jbcrypt-0.4.jar",
+    "last_opened_file_path": "C:/Users/User/movie",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\movie" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -269,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770991879615</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="adding Maven dependencies">
+      <created>1771760131152</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1771760131152</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,7 +296,8 @@
     <MESSAGE value="dry code for saveJson+ hashing" />
     <MESSAGE value="refactoring the Metadata class" />
     <MESSAGE value="refactoring the Metadata class again" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring the Metadata class again" />
+    <MESSAGE value="adding Maven dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Maven dependencies" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,8 @@
 [
   {
-    "year": 0,
+    "title": "The hunger games ",
+    "genre": "action",
+    "year": 2012,
     "reviews": [
       {
         "rating": 9.0,
@@ -13,7 +15,9 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Interstellar",
+    "genre": "sci-fi",
+    "year": 2014,
     "reviews": [
       {
         "rating": 8.7,
@@ -22,11 +26,15 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Dune",
+    "genre": "sci-fi",
+    "year": 2021,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Mission Impossible",
+    "genre": "Action",
+    "year": 2006,
     "reviews": [
       {
         "rating": 8.2,
@@ -35,7 +43,9 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Inception",
+    "genre": "sci-fi",
+    "year": 2010,
     "reviews": [
       {
         "rating": 9.1,
@@ -44,7 +54,9 @@
     ]
   },
   {
-    "year": 0,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
     "reviews": [
       {
         "rating": 9.5,
@@ -53,164 +65,237 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Avatar",
+    "genre": "sci-fi",
+    "year": 2009,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Matrix",
+    "genre": "sci-fi",
+    "year": 1999,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Gladiator",
+    "genre": "Action",
+    "year": 2000,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Mad Max: Fury Road",
+    "genre": "Action",
+    "year": 2015,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Star Wars: The Force Awakens",
+    "genre": "sci-fi",
+    "year": 2015,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Jurassic Park",
+    "genre": "sci-fi",
+    "year": 1993,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Avengers",
+    "genre": "Action",
+    "year": 2012,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Titanic",
+    "genre": "Drama",
+    "year": 1997,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "year": 1994,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Forrest Gump",
+    "genre": "Drama",
+    "year": 1994,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Godfather",
+    "genre": "Drama",
+    "year": 1972,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Pulp Fiction",
+    "genre": "Drama",
+    "year": 1994,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Fantasy",
+    "year": 2003,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Harry Potter and the Sorcerer\u0027s Stone",
+    "genre": "Fantasy",
+    "year": 2001,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "genre": "Fantasy",
+    "year": 2005,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "genre": "Fantasy",
+    "year": 2003,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Hobbit: An Unexpected Journey",
+    "genre": "Fantasy",
+    "year": 2012,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Fight Club",
+    "genre": "Drama",
+    "year": 1999,
     "reviews": []
   },
   {
-    "year": 0,
-    "reviews": [
-      {
-        "rating": 8.0,
-        "review": "a great movie"
-      }
-    ]
-  },
-  {
-    "year": 0,
+    "title": "Goodfellas",
+    "genre": "Crime",
+    "year": 1990,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Silence of the Lambs",
+    "genre": "Thriller",
+    "year": 1991,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Saving Private Ryan",
+    "genre": "War",
+    "year": 1998,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Schindler\u0027s List",
+    "genre": "History",
+    "year": 1993,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Green Mile",
+    "genre": "Fantasy",
+    "year": 1999,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Se7en",
+    "genre": "Thriller",
+    "year": 1995,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Usual Suspects",
+    "genre": "Crime",
+    "year": 1995,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Braveheart",
+    "genre": "History",
+    "year": 1995,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Terminator 2: Judgment Day",
+    "genre": "sci-fi",
+    "year": 1991,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Alien",
+    "genre": "sci-fi",
+    "year": 1979,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Blade Runner",
+    "genre": "sci-fi",
+    "year": 1982,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Back to the Future",
+    "genre": "sci-fi",
+    "year": 1985,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Shining",
+    "genre": "Horror",
+    "year": 1980,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Apocalypse Now",
+    "genre": "War",
+    "year": 1979,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "2001: A Space Odyssey",
+    "genre": "sci-fi",
+    "year": 1968,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "A Clockwork Orange",
+    "genre": "sci-fi",
+    "year": 1971,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Taxi Driver",
+    "genre": "Drama",
+    "year": 1976,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Reservoir Dogs",
+    "genre": "Crime",
+    "year": 1992,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Departed",
+    "genre": "Crime",
+    "year": 2006,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "No Country for Old Men",
+    "genre": "Thriller",
+    "year": 2007,
+    "reviews": []
+  },
+  {
+    "title": "Inglourious Basterds",
+    "genre": "War",
+    "year": 2009,
     "reviews": [
       {
         "rating": 9.6,
@@ -219,15 +304,21 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Django Unchained",
+    "genre": "Western",
+    "year": 2012,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "The Prestige",
+    "genre": "Thriller",
+    "year": 2006,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Memento",
+    "genre": "Thriller",
+    "year": 2000,
     "reviews": [
       {
         "rating": 0.0,
@@ -236,15 +327,21 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "genre": "Romance",
+    "year": 2004,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Amélie",
+    "genre": "Romance",
+    "year": 2001,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Pans Labyrinth",
+    "genre": "Fantasy",
+    "year": 2006,
     "reviews": [
       {
         "rating": 8.0,
@@ -253,15 +350,21 @@
     ]
   },
   {
-    "year": 0,
+    "title": "City of God",
+    "genre": "Crime",
+    "year": 2002,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Oldboy",
+    "genre": "Thriller",
+    "year": 2003,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "Arrietty",
+    "genre": "fantasy",
+    "year": 2010,
     "reviews": [
       {
         "rating": 8.0,
@@ -274,31 +377,25 @@
     ]
   },
   {
-    "year": 0,
+    "title": "Spirited away",
+    "genre": "anime",
+    "year": 2001,
     "reviews": []
   },
   {
-    "year": 0,
+    "title": "It 2",
+    "genre": "horror",
+    "year": 2019,
     "reviews": [
       {
         "rating": 8.0,
         "review": "dhjshdjshd"
       }
     ]
-  },
-  {
-    "year": 0,
-    "reviews": []
-  },
-  {
-    "title": "The mupets",
-    "genre": "comedy",
-    "year": 2026,
-    "reviews": [
-      {
-        "rating": 6.0,
-        "review": ""
-      }
-    ]
   }
-]
+    ]
+
+
+
+
+
