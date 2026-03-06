@@ -5,8 +5,10 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import com.google.gson.GsonBuilder;
 import org.mindrot.jbcrypt.BCrypt;
-
+import java.sql.Connection;
+import java.sql.DriverManager;
 public class Main {
+
     static ArrayList<Movie> movies = new ArrayList<>();
     static final String FILE_NAME = "movies.json";
     static ArrayList<User> users = new ArrayList<>();
@@ -57,7 +59,23 @@ public class Main {
 
     }
 
+
     public static void main(String[] args) {
+        try {
+            String url = "jdbc:postgresql://localhost:5432/mydb";
+            String user = "postgres";
+            String password = "password";
+
+            Connection conn = DriverManager.getConnection(url, user, password);
+
+            System.out.println("Connected to PostgreSQL!");
+
+            conn.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         movies=loadFromJson(FILE_NAME,new TypeToken<ArrayList<Movie>>() { }.getType());
         if (movies == null) {
             movies = new ArrayList<>();
@@ -200,7 +218,7 @@ public class Main {
         System.out.println("Филмът е добавен!");
     }
 
-    //  Добавяне на рейтинг и ревю
+
     static void reviewRate () {
         if (movies.isEmpty()) {
             System.out.println("Няма филми.");
@@ -265,7 +283,6 @@ public class Main {
         saveListToJson(FILE_NAME, movies);
     }
 
-    // Показване на всички филми
     static void showMovies () {
 
         if (movies.isEmpty()) {
@@ -312,7 +329,7 @@ public class Main {
         }
 
     }
-    // Pagination
+
     public static <T > List < T > paginateList(List < T > fullList, int pageNumber, int pageSize){
         int offset = (pageNumber - 1) * pageSize;
         int limit_offset = Math.min(offset + pageSize, fullList.size());
@@ -332,8 +349,6 @@ public class Main {
         }
     }
 
-
-    // Review class
     static class Review {
 
         double rating;
@@ -346,7 +361,6 @@ public class Main {
         }
     }
 
-    // Movie class
     static class Movie {
         String title;
         String genre;
@@ -361,7 +375,6 @@ public class Main {
         }
 
 
-        // напомняне- append добавя текст в края на вече съществуващо съдържание
         public String toString() {
             StringBuilder sb = new StringBuilder();
             sb.append(title + " (" + year + ")\n");
@@ -382,8 +395,6 @@ public class Main {
 
     }
 
-
-    //клас за User
     static class User {
         String name;
         String phone_number;
