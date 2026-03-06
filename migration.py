@@ -49,30 +49,7 @@ def migrate_users():
     cursor.close()
     connection.close()
 
-
-def migrate_movies():
-    connection = psycopg2.connect(
-        database=DB_NAME,
-        user=DB_USER,
-        password=DB_PASS,
-        host=DB_HOST,
-        port=DB_PORT
-    )
-
-    cursor = connection.cursor()
-    with open("movies.json", "r", encoding="utf-8") as f:
-        movies = json.load(f)
-    for movie in movies:
-        cursor.execute(
-            INSERT_MOVIE_SQL,
-            (movie["title"], movie["genre"], movie["year"])
-        )
-    connection.commit()
-    cursor.close()
-    connection.close()
-
-
-def migrate_reviews():
+def migrate_movies_reviews():
     connection = psycopg2.connect(
         database=DB_NAME,
         user=DB_USER,
@@ -115,8 +92,7 @@ def migrate_reviews():
 
 if __name__ == "__main__":
     migrate_users()
-    migrate_movies()
-    migrate_reviews()
+    migrate_movies_reviews()
     print("Movies, users and reviews migrated successfully!")
 
 #psql -U postgres -d movies_project
