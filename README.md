@@ -9,6 +9,7 @@ User registration and login system
 Secure password hashing with BCrypt
 
 
+
   •Movie Management
 
 Add and manage movies
@@ -20,11 +21,13 @@ Add textual reviews
 View full movie collection
 
 
+
 • Data Migration
 
 Python scripts for importing/exporting data
 
 Ensures smooth migration between JSON files and PostgreSQL
+
 
 
  • Tech Stack
