@@ -1,24 +1,24 @@
+Movie Management App is a Java-based console application developed as part of the SAP Mentorship Program. It allows users to manage a movie collection and user accounts, including authentication and movie-related operations.
 
-Конзолно приложение,написано на Java за управление на филми
+ Features :
+ 
+  User Management
+User registration and login system
+Secure password hashing with BCrypt
 
-🚀 Функционалности:
+  Movie Management
+Add and manage movies
+Rate movies (0–10 scale)
+Add textual reviews
+View full movie collection
 
-👤 Потребители
+ Data Migration
+Python scripts for importing/exporting data
+Ensures smooth migration between JSON files and PostgreSQL
 
-✅ Регистрация
-
-✅ Вход в системата
-
-🔐 Сигурно съхранение на пароли чрез BCrypt
-
-💾 Запазване на потребители в users.json
-
-🎥 Филми
-
-➕ Добавяне на нов филм
-
-⭐ Добавяне на рейтинг (0–10)
-
-📝 Добавяне на ревю
-
-📖 Преглед на всички филми
+  Tech Stack
+Java (Core application logic)
+BCrypt (Password security)
+JSON (Data persistence)
+Database-PostgreSQL
+OOP (Object-Oriented Programming principles)
