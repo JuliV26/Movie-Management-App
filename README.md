@@ -1,4 +1,4 @@
-Movie Management App is a Java-based console application developed as part of the SAP Mentorship Program. It allows users to manage a movie collection and user accounts, including authentication and movie-related operations.
+Movie Management App is a Java-based console application developed as part of the SAP Mentorship Program. It allows users to manage a movie collection and user accounts.
 
  Features :
  
