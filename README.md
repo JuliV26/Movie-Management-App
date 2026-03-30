@@ -2,14 +2,14 @@ Movie Management App is a Java-based console application developed as part of th
 
  Features :
  
-  User Management
+  •User Management
   
 User registration and login system
 
 Secure password hashing with BCrypt
 
 
-  Movie Management
+  •Movie Management
 
 Add and manage movies
 
@@ -20,14 +20,14 @@ Add textual reviews
 View full movie collection
 
 
- Data Migration
+• Data Migration
 
 Python scripts for importing/exporting data
 
 Ensures smooth migration between JSON files and PostgreSQL
 
 
-  Tech Stack
+ • Tech Stack
   
 Java (Core application logic)
 
