@@ -1,6 +1,6 @@
 # Movie Management App
 
-A Java-based console application developed as part of the **SAP Mentorship Program**. It lets users register, log in, browse a movie catalog, and leave ratings and reviews — with data stored in JSON files and optionally migrated to PostgreSQL.
+A Java-based console application developed as part of the **SAP Mentorship Program**. It lets users register, log in, browse a movie catalog, and leave ratings and reviews.
 
 ---
 
@@ -9,7 +9,7 @@ A Java-based console application developed as part of the **SAP Mentorship Progr
 - **User accounts** — register and log in with BCrypt-hashed passwords
 - **Movie catalog** — add movies and browse them with paginated navigation
 - **Ratings & reviews** — rate movies on a 0–10 scale and write text reviews
-- **Data migration** — Python scripts to move data from JSON files into PostgreSQL
+
 
 ---
 
