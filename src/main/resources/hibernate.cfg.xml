@@ -32,7 +32,7 @@
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <mapping class="Movie"/>
+        <mapping class="org.ahad.movieapp.entity.Movie"/>
         <mapping class="User"/>
         <mapping class="Review"/>
 
