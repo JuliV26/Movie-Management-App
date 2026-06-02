@@ -7,6 +7,11 @@ import com.google.gson.GsonBuilder;
 import org.mindrot.jbcrypt.BCrypt;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.ahad.movieapp.entity.Movie;
+import org.ahad.movieapp.entity.Reviews;
+import org.ahad.movieapp.entity.Users;
 public class Main {
 
     static ArrayList<Movie> movies = new ArrayList<>();
@@ -121,7 +126,7 @@ public class Main {
     }
     static void MenuMovies() {
         while (true) {
-            System.out.println("\n==== Movie App ====");
+            System.out.println("\n==== org.ahad.movieapp.entity.Movie App ====");
             System.out.println("1. Добави филм");
             System.out.println("2. Напиши ревю или рейтинг");
             System.out.println("3. Покажи всички филми");
@@ -235,7 +240,7 @@ public class Main {
             return;
 
 
-        System.out.println("\n==== Movie App ====");
+        System.out.println("\n==== org.ahad.movieapp.entity.Movie App ====");
         System.out.println("1.Оцени от (0-10) ");
         System.out.println("2.Напиши ревю ");
         System.out.println("3.И двете ");

@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>MovieApp</name>
-    <description>Movie management and review system</description>
+    <description>org.ahad.movieapp.entity.Movie management and review system</description>
 
 
     <properties>
