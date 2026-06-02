@@ -385,7 +385,7 @@ public class Main {
             } else {
                 sb.append("Ревюта:");
                 for (int i = 0; i < reviews.size(); i++) {
-                    Review r = reviews.get(i);  // вземаме текущия отзив от списъка 
+                    Review r = reviews.get(i);  
                     sb.append("\n  - Оценка: " + r.rating + " | Коментар: " + r.review);
                 }
             }
